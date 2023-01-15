@@ -1,1 +1,118 @@
-just a test
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>晴岚X的网站-主页</title>
+  <style type="text/css">
+  @import url("webfonts/Zfull_GB/stylesheet.css");
+
+.detail1 {
+  width:112px;
+  height:112px;
+  position:relative;
+  left:912px;
+  top: 480px
+}
+.background {
+  width:1024px;
+  height:768px;
+  position:relative;
+  margin:auto;
+  background-image:url(images/index.png)
+}
+.background2 {
+	width: 640px;
+	height: 176px;
+	position: relative;
+	margin: auto;
+	background-image: url(images/index.png);
+	left: 192px;
+	top: 170px;
+}
+.button1 {
+	width: 112px;
+	height: 112px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.button2-1 {
+	width: 336px;
+	height: 142px;
+	position: relative;
+	left: 110px;
+	top: 100px;
+}
+.button2-2 {
+	width: 336px;
+	height: 142px;
+	position: relative;
+	left: 558px;
+	top: -45px;
+}
+
+.text1 {
+	color: #999;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive;
+}
+  </style>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  </head>
+  <body bgcolor="#000000" onload="MM_preloadImages('images/button2press.png')">
+  <div class="background" id="b1">
+           <img src="images/title.png" class="background2">
+           <div class="detail1" id="d1">
+	  <img src="images/detail.gif">
+    </div>
+      <div class="button2-1" id="bu2-1">
+        <table width="336" border="0" align="center">
+          <tr>
+            <td width="336" height="112"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','images/button2press.png',1)"><img src="images/button2.png" width="336" height="112" id="Image4" /></a></td>
+          </tr>
+          <tr>
+            <td width="336" class="text1">MC↑</td>
+          </tr>
+        </table>
+      </div>
+    
+    <div class="button2-2" id="bu2-2">
+        <table width="336" border="0" align="center">
+          <tr>
+            <td width="336" height="112"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','images/button2press.png',1)"><img src="images/button2.png" width="336" height="112" id="Image5" /></a></td>
+          </tr>
+          <tr>
+            <td width="336" class="text1">KSP↑</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  <div class="button1" id="bu1">
+  <img src="images/button1.png" width="112" height="112" />
+  </div>
+
+
+</body>
+</html>
